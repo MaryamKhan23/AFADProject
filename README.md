@@ -1,2 +1,2 @@
-# AFADProject
-Civil Engineering Tool implemented through MATLAB and Python
+# Project_AF
+ earthquake-engineering-tool

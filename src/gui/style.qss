@@ -1,0 +1,230 @@
+/* ===========================
+        general settings
+   =========================== */
+QWidget {
+    background-color: #F4F6FA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+
+
+QScrollArea {
+    border: none;
+}
+
+/* ===========================
+           QLabels
+   =========================== */
+QLabel {
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+#titleLabel {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1E2A78; /* Lacivert */
+}
+
+#descLabel {
+    font-size: 20px;
+    color: #444;
+}
+
+#stationLabel {
+    font-size: 14px;
+}
+
+#infoHeader {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1E2A78;
+    padding-bottom: 4px;
+}
+
+#infoItem {
+    font-size: 13px;
+    color: #333;
+}
+
+QLabel[objectName^="featureLabel"] {
+    background-color: #FDFDFD;
+    border: 1px solid #C5C5C5;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+QLabel[objectName^="featureLabel"]:hover {
+    background-color: #F0F2FF;
+    border: 1px solid #1E2A78;
+    color: #1E2A78;
+}
+
+/* ===========================
+   QPushButton - Tüm Butonlar
+   =========================== */
+QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+/* İleri butonları (continue, next) */
+#nextButton,
+#stationButton,
+#startButton,
+#goButton,
+#continueButton {
+    background-color: #1E2A78;
+    color: white;
+}
+
+#nextButton:hover,
+#stationButton:hover,
+#startButton:hover,
+#goButton:hover,
+#continueButton:hover {
+    background-color: #152063;
+}
+
+#backButton,
+#smallBackButton,
+#smallHomeButton,
+#returnButton {
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 13px;
+}
+
+#backButton:hover,
+#smallBackButton:hover,
+#smallHomeButton:hover,
+#returnButton:hover {
+    background-color: #1A1A1A;
+}
+
+/* ===========================
+   QLineEdit - Input Kutuları
+   =========================== */
+QLineEdit {
+    background-color: white;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#eventInput {
+    padding: 6px;
+}
+
+/* ===========================
+   QComboBox - Dropdown Menüler
+   =========================== */
+QComboBox {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#stationCombo {
+    border: 1px solid #aaa;
+}
+
+/* ===========================
+   QListWidget - Event ID Listesi
+   =========================== */
+#eventList {
+    font-size: 13px;
+    color: #1E2A78;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+QListWidget::item:hover {
+    background-color: #F0F2FF;
+    color: #1E2A78;
+}
+
+QListWidget::item:selected {
+    background-color: #1E2A78;
+    color: white;
+}
+
+/* ===========================
+   QFrame - Kartlar ve Kutular
+   =========================== */
+QFrame {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+#cardFrame {
+    padding: 40px;
+    background-color: #FBFBFB;
+    border: 1px solid #D0D0D0;
+    border-radius: 12px;
+}
+
+/* ===========================
+   Bilgi Kutusu
+   =========================== */
+#infoBox {
+    font-size: 13px;
+    border: 1px solid #ccc;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+/* ===========================
+   Tooltip'ler
+   =========================== */
+QToolTip {
+    background-color: #1C1C1C;
+    color: white;
+    border: 1px solid #555;
+    padding: 5px;
+    font-size: 13px;
+}
+
+/* ===========================
+   Açıklama Kutusu (Grafik Sayfası)
+   =========================== */
+#graphDescription {
+    font-size: 13px;
+    color: #333;
+    padding: 10px 4px;
+    margin-top: 10px;
+    border-left: 4px solid #1E2A78;
+    background-color: #F8F9FC;
+    border-radius: 4px;
+}
+
+#descriptionBox {
+    font-size: 18px;  /* Eskisi: 18px */
+    padding: 16px;     /* Eskisi: 16px */
+    line-height: 1.6;  /* Eskisi: 1.6 */
+    background-color: #FBFBFB;
+    color: #1C1C1C;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+#footerLabel {
+    color: #888;
+    font-size: 12px;
+    padding: 12px 0;
+}
+

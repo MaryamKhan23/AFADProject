@@ -1,0 +1,16 @@
+EventID,Code,Latitude,Longitude,Province,District,Litology,Vs30,Morphology,PGA_NS,PGA_EW,PGA_UD
+20230206_KMRS,KMRS001,37.1,36.9,Kahramanmaraş,Merkez,Alluvium,300,Valley,1.76,1.85,0.92
+20230206_KMRS,GAZI002,36.9,38.4,Gaziantep,Şahinbey,Sandstone,350,Urban,1.44,1.51,0.78
+20230206_KMRS,MALY003,38.4,38.3,Malatya,Yeşilyurt,Gravel,420,Plain,1.21,1.29,0.67
+19990817_IZMT,IZMT099,40.8,29.9,Kocaeli,Gebze,Sandstone,420,Urban,1.21,1.32,0.65
+19990817_IZMT,ISTN001,41.0,29.0,İstanbul,Kartal,Alluvium,260,Coastal,1.08,1.14,0.54
+19990817_IZMT,YALV010,40.6,29.2,Yalova,Altınova,Limestone,310,Hill,1.13,1.18,0.61
+20111023_VAN,VAN023,38.5,43.2,Van,İpekyolu,Clay,250,Plain,1.09,1.14,0.47
+20111023_VAN,ERC001,39.7,43.4,Erciş,Merkez,Siltstone,270,Hill,0.97,1.01,0.42
+20111023_VAN,MUS002,38.9,41.5,Muş,Merkez,Gravel,330,Basin,0.91,0.95,0.39
+20201030_IZMR,IZMR007,38.4,27.1,İzmir,Bornova,Gravel,500,Basin,1.01,1.08,0.52
+20201030_IZMR,AYDN004,37.9,27.8,Aydın,Kuşadası,Alluvium,240,Coastal,0.93,1.02,0.46
+20201030_IZMR,MNIS005,38.5,27.0,Manisa,Turgutlu,Clay,290,Valley,0.89,0.97,0.41
+20200124_ELAZ,ELAZ052,38.7,39.2,Elazığ,Merkez,Limestone,390,Hill,0.89,0.94,0.39
+20200124_ELAZ,DYRB006,38.4,40.2,Diyarbakır,Sur,Sand,320,Plain,0.84,0.89,0.37
+20200124_ELAZ,BNGL007,38.9,38.5,Bingöl,Genç,Alluvium,280,Valley,0.92,0.96,0.40

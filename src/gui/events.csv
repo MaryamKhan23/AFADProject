@@ -1,0 +1,6 @@
+EventID,Date,Time,Latitude,Longitude,Depth,Magnitude,Province,District
+20230206_KMRS,2023-02-06,04:17:35,37.174,37.032,7.0,7.7,Kahramanmaraş,Pazarcık
+19990817_IZMT,1999-08-17,03:02:45,40.702,29.987,17.0,7.4,Kocaeli,Gölcük
+20111023_VAN,2011-10-23,13:41:21,38.75,43.36,19.0,7.1,Van,Tabanlı
+20201030_IZMR,2020-10-30,14:51:26,37.888,26.794,16.5,7.0,İzmir,Seferihisar
+20200124_ELAZ,2020-01-24,20:55:11,38.39,39.08,10.0,6.8,Elazığ,Sivrice
